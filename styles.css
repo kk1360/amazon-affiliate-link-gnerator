@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: url('dell-rg-dHlPIvi1Joc-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+input {
+    width: 20%;
+    height: 25px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ca1414;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #3b2b2ba6;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#guidanceSteps {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    text-align: left;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 0.3s ease;
+}
+
+#guidanceSteps h2 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#guidanceSteps ol {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.icon img:hover {
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
